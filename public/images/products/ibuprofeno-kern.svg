@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orangePillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd7e14;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8590c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d63384;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowEffect" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#fff5f5" stroke="#fecaca" stroke-width="2"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="105" cy="105" rx="40" ry="18" fill="#000000" opacity="0.2"/>
+  
+  <!-- Main pill (oval shape) -->
+  <ellipse cx="100" cy="100" rx="40" ry="18" fill="url(#orangePillGradient)" stroke="#c2410c" stroke-width="2"/>
+  
+  <!-- Glow effect -->
+  <ellipse cx="100" cy="100" rx="40" ry="18" fill="url(#glowEffect)"/>
+  
+  <!-- Text on pill -->
+  <text x="100" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">600mg</text>
+  
+  <!-- Prescription indicator -->
+  <g transform="translate(100, 140)">
+    <rect x="-12" y="-8" width="24" height="16" fill="#dc3545" rx="3"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">Rx</text>
+  </g>
+  
+  <!-- Warning triangle -->
+  <g transform="translate(75, 75)">
+    <polygon points="0,-6 5,4 -5,4" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#92400e">!</text>
+  </g>
+  
+  <!-- Label -->
+  <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#343a40">IBUPROFENO</text>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">KERN PHARMA</text>
+</svg>

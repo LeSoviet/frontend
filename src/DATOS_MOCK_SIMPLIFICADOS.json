@@ -1,0 +1,450 @@
+{
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "Analgésicos",
+      "description": "Medicamentos para el alivio del dolor",
+      "productCount": 8
+    },
+    {
+      "id": "cat-002",
+      "name": "Antibióticos",
+      "description": "Tratamiento de infecciones bacterianas",
+      "productCount": 6
+    },
+    {
+      "id": "cat-003",
+      "name": "Gastroenterología",
+      "description": "Medicamentos para problemas digestivos",
+      "productCount": 5
+    },
+    {
+      "id": "cat-004",
+      "name": "Cardiología",
+      "description": "Medicamentos para el sistema cardiovascular",
+      "productCount": 4
+    },
+    {
+      "id": "cat-005",
+      "name": "Dermatología",
+      "description": "Tratamientos para la piel",
+      "productCount": 3
+    },
+    {
+      "id": "cat-006",
+      "name": "Respiratorio",
+      "description": "Medicamentos para el sistema respiratorio",
+      "productCount": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Paracetamol Cinfa 500mg",
+      "activeIngredient": "Paracetamol",
+      "strength": "500mg",
+      "form": "tablet",
+      "manufacturer": "Laboratorios Cinfa",
+      "price": 3.50,
+      "stock": 150,
+      "description": "Analgésico y antipirético para el tratamiento del dolor leve a moderado y la fiebre. Indicado para adultos y niños mayores de 12 años.",
+      "category": "Analgésicos",
+      "requiresPrescription": false,
+      "image": "paracetamol-cinfa.jpg",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "Ibuprofeno Kern Pharma 600mg",
+      "activeIngredient": "Ibuprofeno",
+      "strength": "600mg",
+      "form": "tablet",
+      "manufacturer": "Kern Pharma",
+      "price": 4.20,
+      "stock": 120,
+      "description": "Antiinflamatorio no esteroideo (AINE) para el tratamiento del dolor, inflamación y fiebre. Especialmente eficaz en dolores musculares y articulares.",
+      "category": "Analgésicos",
+      "requiresPrescription": true,
+      "image": "ibuprofeno-kern.jpg",
+      "createdAt": "2024-01-15T10:35:00Z",
+      "updatedAt": "2024-01-15T10:35:00Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "Aspirina Bayer 500mg",
+      "activeIngredient": "Ácido acetilsalicílico",
+      "strength": "500mg",
+      "form": "tablet",
+      "manufacturer": "Bayer",
+      "price": 5.80,
+      "stock": 200,
+      "description": "Analgésico, antipirético y antiinflamatorio. También utilizado como antiagregante plaquetario en dosis bajas.",
+      "category": "Analgésicos",
+      "requiresPrescription": false,
+      "image": "aspirina-bayer.jpg",
+      "createdAt": "2024-01-15T10:40:00Z",
+      "updatedAt": "2024-01-15T10:40:00Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "Amoxicilina Sandoz 875mg",
+      "activeIngredient": "Amoxicilina",
+      "strength": "875mg",
+      "form": "tablet",
+      "manufacturer": "Sandoz Farmacéutica",
+      "price": 12.80,
+      "stock": 75,
+      "description": "Antibiótico de amplio espectro del grupo de las penicilinas. Eficaz contra infecciones respiratorias, urinarias y de tejidos blandos.",
+      "category": "Antibióticos",
+      "requiresPrescription": true,
+      "image": "amoxicilina-sandoz.jpg",
+      "createdAt": "2024-01-15T11:00:00Z",
+      "updatedAt": "2024-01-15T11:00:00Z"
+    },
+    {
+      "id": "prod-005",
+      "name": "Azitromicina Teva 500mg",
+      "activeIngredient": "Azitromicina",
+      "strength": "500mg",
+      "form": "tablet",
+      "manufacturer": "Teva Pharma",
+      "price": 18.90,
+      "stock": 45,
+      "description": "Antibiótico macrólido de amplio espectro. Tratamiento de infecciones respiratorias, de piel y tejidos blandos.",
+      "category": "Antibióticos",
+      "requiresPrescription": true,
+      "image": "azitromicina-teva.jpg",
+      "createdAt": "2024-01-15T11:05:00Z",
+      "updatedAt": "2024-01-15T11:05:00Z"
+    },
+    {
+      "id": "prod-006",
+      "name": "Omeprazol Teva 20mg",
+      "activeIngredient": "Omeprazol",
+      "strength": "20mg",
+      "form": "capsule",
+      "manufacturer": "Teva Pharma",
+      "price": 8.90,
+      "stock": 200,
+      "description": "Inhibidor de la bomba de protones para el tratamiento de úlceras pépticas, reflujo gastroesofágico y síndrome de Zollinger-Ellison.",
+      "category": "Gastroenterología",
+      "requiresPrescription": false,
+      "image": "omeprazol-teva.jpg",
+      "createdAt": "2024-01-15T11:10:00Z",
+      "updatedAt": "2024-01-15T11:10:00Z"
+    },
+    {
+      "id": "prod-007",
+      "name": "Ranitidina Cinfa 150mg",
+      "activeIngredient": "Ranitidina",
+      "strength": "150mg",
+      "form": "tablet",
+      "manufacturer": "Laboratorios Cinfa",
+      "price": 6.45,
+      "stock": 80,
+      "description": "Antagonista de los receptores H2 de la histamina. Reduce la producción de ácido gástrico.",
+      "category": "Gastroenterología",
+      "requiresPrescription": false,
+      "image": "ranitidina-cinfa.jpg",
+      "createdAt": "2024-01-15T11:15:00Z",
+      "updatedAt": "2024-01-15T11:15:00Z"
+    },
+    {
+      "id": "prod-008",
+      "name": "Enalapril Normon 10mg",
+      "activeIngredient": "Enalapril",
+      "strength": "10mg",
+      "form": "tablet",
+      "manufacturer": "Laboratorios Normon",
+      "price": 6.45,
+      "stock": 90,
+      "description": "Inhibidor de la enzima convertidora de angiotensina (IECA) para el tratamiento de la hipertensión arterial e insuficiencia cardíaca.",
+      "category": "Cardiología",
+      "requiresPrescription": true,
+      "image": "enalapril-normon.jpg",
+      "createdAt": "2024-01-15T11:20:00Z",
+      "updatedAt": "2024-01-15T11:20:00Z"
+    },
+    {
+      "id": "prod-009",
+      "name": "Atorvastatina Mylan 20mg",
+      "activeIngredient": "Atorvastatina",
+      "strength": "20mg",
+      "form": "tablet",
+      "manufacturer": "Mylan Pharmaceuticals",
+      "price": 15.30,
+      "stock": 110,
+      "description": "Estatina para el tratamiento de la hipercolesterolemia y prevención de enfermedades cardiovasculares.",
+      "category": "Cardiología",
+      "requiresPrescription": true,
+      "image": "atorvastatina-mylan.jpg",
+      "createdAt": "2024-01-15T11:25:00Z",
+      "updatedAt": "2024-01-15T11:25:00Z"
+    },
+    {
+      "id": "prod-010",
+      "name": "Salbutamol Aldo-Unión 100mcg",
+      "activeIngredient": "Salbutamol",
+      "strength": "100mcg",
+      "form": "inhaler",
+      "manufacturer": "Aldo-Unión",
+      "price": 15.30,
+      "stock": 60,
+      "description": "Broncodilatador beta-2 agonista para el tratamiento del asma bronquial y enfermedad pulmonar obstructiva crónica (EPOC).",
+      "category": "Respiratorio",
+      "requiresPrescription": true,
+      "image": "salbutamol-aldo.jpg",
+      "createdAt": "2024-01-15T11:30:00Z",
+      "updatedAt": "2024-01-15T11:30:00Z"
+    },
+    {
+      "id": "prod-011",
+      "name": "Budesonida Teva 200mcg",
+      "activeIngredient": "Budesonida",
+      "strength": "200mcg",
+      "form": "inhaler",
+      "manufacturer": "Teva Pharma",
+      "price": 22.50,
+      "stock": 35,
+      "description": "Corticosteroide inhalado para el tratamiento de mantenimiento del asma y prevención de exacerbaciones.",
+      "category": "Respiratorio",
+      "requiresPrescription": true,
+      "image": "budesonida-teva.jpg",
+      "createdAt": "2024-01-15T11:35:00Z",
+      "updatedAt": "2024-01-15T11:35:00Z"
+    },
+    {
+      "id": "prod-012",
+      "name": "Betametasona Kern Pharma 0.5mg",
+      "activeIngredient": "Betametasona",
+      "strength": "0.5mg",
+      "form": "cream",
+      "manufacturer": "Kern Pharma",
+      "price": 8.75,
+      "stock": 95,
+      "description": "Corticosteroide tópico para el tratamiento de dermatitis, eczemas y otras afecciones inflamatorias de la piel.",
+      "category": "Dermatología",
+      "requiresPrescription": true,
+      "image": "betametasona-kern.jpg",
+      "createdAt": "2024-01-15T11:40:00Z",
+      "updatedAt": "2024-01-15T11:40:00Z"
+    },
+    {
+      "id": "prod-013",
+      "name": "Hidrocortisona Cinfa 1%",
+      "activeIngredient": "Hidrocortisona",
+      "strength": "1%",
+      "form": "cream",
+      "manufacturer": "Laboratorios Cinfa",
+      "price": 6.20,
+      "stock": 120,
+      "description": "Corticosteroide tópico suave para el tratamiento de irritaciones cutáneas leves, picaduras de insectos y dermatitis de contacto.",
+      "category": "Dermatología",
+      "requiresPrescription": false,
+      "image": "hidrocortisona-cinfa.jpg",
+      "createdAt": "2024-01-15T11:45:00Z",
+      "updatedAt": "2024-01-15T11:45:00Z"
+    },
+    {
+      "id": "prod-014",
+      "name": "Loratadina Sandoz 10mg",
+      "activeIngredient": "Loratadina",
+      "strength": "10mg",
+      "form": "tablet",
+      "manufacturer": "Sandoz Farmacéutica",
+      "price": 4.90,
+      "stock": 180,
+      "description": "Antihistamínico no sedante para el tratamiento de rinitis alérgica y urticaria crónica idiopática.",
+      "category": "Analgésicos",
+      "requiresPrescription": false,
+      "image": "loratadina-sandoz.jpg",
+      "createdAt": "2024-01-15T11:50:00Z",
+      "updatedAt": "2024-01-15T11:50:00Z"
+    },
+    {
+      "id": "prod-015",
+      "name": "Cetirizina Teva 10mg",
+      "activeIngredient": "Cetirizina",
+      "strength": "10mg",
+      "form": "tablet",
+      "manufacturer": "Teva Pharma",
+      "price": 5.60,
+      "stock": 140,
+      "description": "Antihistamínico de segunda generación para el tratamiento de síntomas alérgicos como rinitis y urticaria.",
+      "category": "Analgésicos",
+      "requiresPrescription": false,
+      "image": "cetirizina-teva.jpg",
+      "createdAt": "2024-01-15T11:55:00Z",
+      "updatedAt": "2024-01-15T11:55:00Z"
+    },
+    {
+      "id": "prod-016",
+      "name": "Simvastatina Normon 20mg",
+      "activeIngredient": "Simvastatina",
+      "strength": "20mg",
+      "form": "tablet",
+      "manufacturer": "Laboratorios Normon",
+      "price": 12.40,
+      "stock": 85,
+      "description": "Estatina para el tratamiento de la hipercolesterolemia y reducción del riesgo cardiovascular.",
+      "category": "Cardiología",
+      "requiresPrescription": true,
+      "image": "simvastatina-normon.jpg",
+      "createdAt": "2024-01-15T12:00:00Z",
+      "updatedAt": "2024-01-15T12:00:00Z"
+    },
+    {
+      "id": "prod-017",
+      "name": "Metformina Teva 850mg",
+      "activeIngredient": "Metformina",
+      "strength": "850mg",
+      "form": "tablet",
+      "manufacturer": "Teva Pharma",
+      "price": 9.80,
+      "stock": 160,
+      "description": "Antidiabético oral para el tratamiento de la diabetes mellitus tipo 2. Mejora la sensibilidad a la insulina.",
+      "category": "Gastroenterología",
+      "requiresPrescription": true,
+      "image": "metformina-teva.jpg",
+      "createdAt": "2024-01-15T12:05:00Z",
+      "updatedAt": "2024-01-15T12:05:00Z"
+    },
+    {
+      "id": "prod-018",
+      "name": "Clorhexidina Lacer 0.12%",
+      "activeIngredient": "Clorhexidina",
+      "strength": "0.12%",
+      "form": "liquid",
+      "manufacturer": "Lacer",
+      "price": 7.30,
+      "stock": 100,
+      "description": "Antiséptico bucal para el tratamiento y prevención de gingivitis, periodontitis y otras infecciones orales.",
+      "category": "Dermatología",
+      "requiresPrescription": false,
+      "image": "clorhexidina-lacer.jpg",
+      "createdAt": "2024-01-15T12:10:00Z",
+      "updatedAt": "2024-01-15T12:10:00Z"
+    },
+    {
+      "id": "prod-019",
+      "name": "Montelukast Sandoz 10mg",
+      "activeIngredient": "Montelukast",
+      "strength": "10mg",
+      "form": "tablet",
+      "manufacturer": "Sandoz Farmacéutica",
+      "price": 28.90,
+      "stock": 50,
+      "description": "Antagonista de los receptores de leucotrienos para el tratamiento del asma y rinitis alérgica estacional.",
+      "category": "Respiratorio",
+      "requiresPrescription": true,
+      "image": "montelukast-sandoz.jpg",
+      "createdAt": "2024-01-15T12:15:00Z",
+      "updatedAt": "2024-01-15T12:15:00Z"
+    },
+    {
+      "id": "prod-020",
+      "name": "Lansoprazol Kern Pharma 30mg",
+      "activeIngredient": "Lansoprazol",
+      "strength": "30mg",
+      "form": "capsule",
+      "manufacturer": "Kern Pharma",
+      "price": 11.20,
+      "stock": 75,
+      "description": "Inhibidor de la bomba de protones para el tratamiento de úlceras duodenales, gástricas y reflujo gastroesofágico.",
+      "category": "Gastroenterología",
+      "requiresPrescription": true,
+      "image": "lansoprazol-kern.jpg",
+      "createdAt": "2024-01-15T12:20:00Z",
+      "updatedAt": "2024-01-15T12:20:00Z"
+    }
+  ],
+  "admin": {
+    "id": "admin-001",
+    "username": "admin",
+    "email": "admin@farmacia.com",
+    "name": "Administrador Principal",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  "manufacturers": [
+    "Laboratorios Cinfa",
+    "Kern Pharma",
+    "Bayer",
+    "Sandoz Farmacéutica",
+    "Teva Pharma",
+    "Laboratorios Normon",
+    "Aldo-Unión",
+    "Mylan Pharmaceuticals",
+    "Lacer"
+  ],
+  "productForms": [
+    {
+      "value": "tablet",
+      "label": "Comprimido",
+      "icon": "💊"
+    },
+    {
+      "value": "capsule",
+      "label": "Cápsula",
+      "icon": "💊"
+    },
+    {
+      "value": "liquid",
+      "label": "Líquido",
+      "icon": "🧪"
+    },
+    {
+      "value": "cream",
+      "label": "Crema",
+      "icon": "🧴"
+    },
+    {
+      "value": "inhaler",
+      "label": "Inhalador",
+      "icon": "💨"
+    },
+    {
+      "value": "syrup",
+      "label": "Jarabe",
+      "icon": "🍯"
+    },
+    {
+      "value": "injection",
+      "label": "Inyección",
+      "icon": "💉"
+    }
+  ],
+  "priceRanges": [
+    {
+      "label": "Menos de 5€",
+      "min": 0,
+      "max": 5
+    },
+    {
+      "label": "5€ - 10€",
+      "min": 5,
+      "max": 10
+    },
+    {
+      "label": "10€ - 20€",
+      "min": 10,
+      "max": 20
+    },
+    {
+      "label": "Más de 20€",
+      "min": 20,
+      "max": 1000
+    }
+  ],
+  "statistics": {
+    "totalProducts": 20,
+    "totalCategories": 6,
+    "totalManufacturers": 9,
+    "averagePrice": 11.47,
+    "totalStock": 2085,
+    "prescriptionRequired": 11,
+    "overTheCounter": 9,
+    "lowStock": 3,
+    "outOfStock": 0
+  }
+}
